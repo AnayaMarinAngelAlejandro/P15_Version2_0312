@@ -9,15 +9,21 @@ class Pantalla1_0312 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.red,
-        title: Text("Pantalla 1 Anaya"),
+        title: Text("Card P1 Anaya"),
       ),
       body: Center(
-        child: Column(
-          children: [
-            Container(
-              child: Text("Anaya ejemplo"),
-            )
-          ], //Niños
+        child: Card(
+          elevation: 10,
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+          color: Color(0xff000000),
+          child: Padding(
+            padding: EdgeInsets.all(20),
+            child: Text(
+              "Card Anaya",
+              style: TextStyle(fontSize: 30, color: Color(0xffb288fb)),
+            ),
+          ),
         ),
       ),
     );
