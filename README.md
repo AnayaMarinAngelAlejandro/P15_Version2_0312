@@ -15,7 +15,7 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Version dos de actividad 14: FlutLab - Flutter Online IDE
 
-- Link de referencia: [https://docs.google.com/document/d/1jTloUy06IgWM7lw4rxjJRm-U0HS4YiTs9KUiXsZLa6U/edit](https://github.com/flutter-teacher/container-widget/blob/main/main.dart)
+- Link de referencia: https://github.com/flutter-teacher/container-widget/blob/main/main.dart
 - Angel Anaya a.21308051280312@cbtis128.edu.mx
 
 ## Resultado de mi aplicacion en Flutter: 
