@@ -7,22 +7,26 @@ class Pantalla2_0312 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff000000),
+      backgroundColor: Color(0xffefeb0d),
       appBar: AppBar(
-        backgroundColor: Colors.orange,
+        backgroundColor: Color(0xffff0800),
         title: Text("Pantalla 2 Anaya0312"),
       ),
       body: Center(
         child: Container(
-          color: Color(0xffc6a538),
-          width: double.infinity,
-          height: 300,
-          child: Card(
-            color: Color(0xffe52727),
-            margin: EdgeInsets.all(16),
-            child: Text(
-              "Card Anaya",
-              style: TextStyle(fontSize: 30, color: Colors.black),
+          color: Color(0xff10aad9),
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 200,
+            maxHeight: 300,
+            maxWidth: 300,
+          ),
+          child: Text(
+            "Contenedor dos Anaya",
+            style: TextStyle(
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
+              color: Color(0xffffffff),
             ),
           ),
         ),

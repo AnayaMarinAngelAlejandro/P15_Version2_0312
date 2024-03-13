@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:anaya0312/pantalla1_0312.dart';
 import 'package:anaya0312/pantalla2_0312.dart';
+import 'package:anaya0312/pantalla3_0312.dart';
 import 'package:anaya0312/pantallainicial_0312.dart';
 
 void main() => runApp(MiApp0312());
@@ -22,6 +23,7 @@ class _MiApp0312State extends State<MiApp0312> {
         "/": (context) => PantallaInicial_0312(),
         "/Pantalla1_0312": (context) => Pantalla1_0312(),
         "/Pantalla2_0312": (context) => Pantalla2_0312(),
+        "/Pantalla3_0312": (context) => Pantalla3_0312(),
       }, //Fin de rutas de paginas
     );
   }
